@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/e08f8226-cdc6-47d8-ac27-bec0e25f992e/deploy-status)](https://app.netlify.com/sites/react-news-api/deploys)
 
-#Live Site
+##Live Site
 
 You can preview a live version of this project on `https://react-news-api.netlify.com/`.
 
