@@ -1,12 +1,17 @@
 import React from 'react';
-import New from './New';
+import PropTypes from 'prop-types';
+import Article from './Article';
 
 const NewsList = ({ news }) => (
   <div className="row">
     {news.map((article, index) => (
-      <New key={index} article={article} />
+      <Article key={index} article={article} />
     ))}
   </div>
 );
+
+NewsList.propTypes = {
+  news: PropTypes.array.isRequired
+};
 
 export default NewsList;
