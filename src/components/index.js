@@ -1,5 +1,5 @@
 import Header from './Header';
 import NewsList from './NewsList';
-import New from './New';
+import Form from './Form';
 
-export { Header, NewsList, New };
+export { Header, NewsList, Form };
